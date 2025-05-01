@@ -1,0 +1,100 @@
+.landing-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:/Users/Jacob/download/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Logo
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.Logo img
+{
+    width: 100%;
+    height: auto;
+}
+
+.signin
+{
+   position: absolute;
+    top: 45px;
+    right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+.signin-button
+{
+    background-color: #DB0000;
+    border: none;
+    height: 30px;
+    width: 90px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+.Header
+{
+    font-size: 55px;
+}
+.sub-header
+{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 16%;
+}
+.download-button
+{
+    position: relative;
+    top: -40px;
+    background-color: #DB0000;
+    border: none;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.download-button:hover
+{
+    background-color: #6d0c0c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*link to visit online instead of download*/
+.online
+{ 
+    position: relative;
+    top: 20px;
+    left: -250px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+.online:hover
+{
+    color: #DB0000;
+    text-decoration: underline;
+}
