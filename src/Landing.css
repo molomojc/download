@@ -98,3 +98,8 @@
     color: #DB0000;
     text-decoration: underline;
 }
+.href
+{
+    text-decoration: none;
+    color: white;
+}

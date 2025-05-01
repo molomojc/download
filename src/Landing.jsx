@@ -6,9 +6,7 @@ const Landing = () => {
 
 
 
-    const handleSignInClick = () => {
-        console.log("Sign In button clicked");
-    };
+   
 //C:\Users\Jacob\download\src\Cinema Desktop.exe
     const DownloadApp = () => {
         const fileUrl = 'https://raw.githubusercontent.com/molomojc/download/master/src/Cinema%20Desktop.exe';
@@ -29,7 +27,7 @@ const Landing = () => {
                 <img src={logo} alt="Logo" className="src" />
             </div>
             <div className="signin">
-                <button className="signin-button" onClick={handleSignInClick}>Sign In</button>
+                <button className="signin-button" ><a href="https://series2.netlify.app" className="href">Sign In</a></button>
             </div>
             {/* Content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
