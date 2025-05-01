@@ -1,0 +1,7 @@
+{
+  "appUrl": "https://movie3.netlify.app",
+  "updateUrl": "https://yourdomain.com/YourAppInstaller.exe",
+  "showNotification": true,
+  "maintenanceMessage": "A new update is available. Please download the latest version."
+}
+
