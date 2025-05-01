@@ -11,7 +11,7 @@ const Landing = () => {
     };
 //C:\Users\Jacob\download\src\Cinema Desktop.exe
     const DownloadApp = () => {
-        const fileUrl = '/Cinema Desktop.exe';
+        const fileUrl = 'https://raw.githubusercontent.com/molomojc/download/master/src/Cinema%20Desktop.exe';
         const link = document.createElement('a');
         link.href = fileUrl;
         link.download = 'Cinema Desktop.exe';
