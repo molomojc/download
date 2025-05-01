@@ -9,12 +9,12 @@ const Landing = () => {
     const handleSignInClick = () => {
         console.log("Sign In button clicked");
     };
-
+//C:\Users\Jacob\download\src\Cinema Desktop.exe
     const DownloadApp = () => {
-        const fileUrl = '/YourAppInstaller.exe';
+        const fileUrl = '/Cinema Desktop.exe';
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = 'YourAppInstaller.exe';
+        link.download = 'Cinema Desktop.exe';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
